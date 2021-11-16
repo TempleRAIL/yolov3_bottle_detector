@@ -4,7 +4,7 @@ A Yolov3-based bottle brand detector, which is trained from a custom dataset wit
 ![bottle_detection_demo](demo/bottle_detection_demo.gif "bottle_detection_demo") 
 
 ## Custom Bottle Dataset:
-This bottle dataset consists of 4870 images of four brands of mineral water bottles (i.e. Aquafina, Deer, Kirkland and Nestle). Images were collected by the turtlebot 2 robot and people in four different environments: lobby, laboratory, corridor, and living room. 
+This bottle dataset consists of 4870 images of four brands of mineral water bottles (i.e. Aquafina, Deer, Kirkland and Nestle). Images were collected by the turtlebot 2 robot and smart phone in four different environments: lobby, laboratory, corridor, and living room. 
 
 **Size** 
 * 4000 training images
