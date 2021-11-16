@@ -37,7 +37,7 @@ This bottle detector is a pretrained yolov3-tiny model fine-tuned by our custom 
 
 **Two pretrained models**
 * yolov3_tiny_sphd_25000_paper.weights: specially used in our SPHD filer paper "The Semantic PHD Filter for Multi-class TargetTracking: From Theory to Practice"
-* yolov3_tiny_30000_general.weights: general purpose
+* yolov3_tiny_30000_general.weights: general purpose (recommend)
 
 **Requirements**
 * install darknet package: https://github.com/pjreddie/darknet  
