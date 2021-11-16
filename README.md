@@ -39,7 +39,7 @@ This bottle detector is a pretrained yolov3-tiny model fine-tuned by our custom 
 * ./cfg/yolov3-tiny-sphd.cfg
 
 **Two pretrained models**
-* ./weights/yolov3_tiny_sphd_25000_paper.weights: specially used in our SPHD filer paper "The Semantic PHD Filter for Multi-class TargetTracking: From Theory to Practice"
+* ./weights/yolov3_tiny_sphd_25000_paper.weights: specially used in our SPHD filter paper "The Semantic PHD Filter for Multi-class TargetTracking: From Theory to Practice"
 * ./weights/yolov3_tiny_30000_general.weights: general purpose (recommend)
 
 **Requirements**
