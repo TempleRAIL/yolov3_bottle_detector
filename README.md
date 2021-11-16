@@ -1,4 +1,5 @@
 # Yolov3 Bottle Detector
+A Yolov3-based bottle brand detector, which is trained from a custom dataset with four brands of mineral water bottles.
 ![bottle_detection_demo](demo/bottle_detection_demo.gif "bottle_detection_demo") 
 
 ## Custom Bottle Dataset:
