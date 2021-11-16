@@ -27,7 +27,7 @@ This bottle dataset consists of 4870 images of four brands of mineral water bott
 * Annotations: contains the xml label files in PASCAL VOC format
 * ImageSets: contains the training index files 
 * JPEGImages: contains the image data in jpg format
-* Labels: contains the txt lable files in Darknet format
+* Labels: contains the txt label files in Darknet format
 
 **Sample labeled Images**
 ![pv_corridor](demo/pv_corridor.jpg "pv_corridor") ![lobby](demo/lobby.png "lobby") ![lab126](demo/lab126.jpg "lab126") 
@@ -35,12 +35,18 @@ This bottle dataset consists of 4870 images of four brands of mineral water bott
 ## YOLOV3 Tiny Bottle Detector:
 This bottle detector is a pretrained yolov3-tiny model fine-tuned by our custom bottle dataset shown above. 
 
+**Network Configure File**
+* ./cfg/yolov3-tiny-sphd.cfg
+
 **Two pretrained models**
-* yolov3_tiny_sphd_25000_paper.weights: specially used in our SPHD filer paper "The Semantic PHD Filter for Multi-class TargetTracking: From Theory to Practice"
-* yolov3_tiny_30000_general.weights: general purpose (recommend)
+* ./weights/yolov3_tiny_sphd_25000_paper.weights: specially used in our SPHD filer paper "The Semantic PHD Filter for Multi-class TargetTracking: From Theory to Practice"
+* ./weights/yolov3_tiny_30000_general.weights: general purpose (recommend)
 
 **Requirements**
 * install darknet package: https://github.com/pjreddie/darknet  
+
+**Video Demo**
+* ./demo/bottle_detection_demo.mp4
 
 ## Citation
 
