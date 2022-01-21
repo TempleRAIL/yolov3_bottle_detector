@@ -1,7 +1,7 @@
 Size: 4000 training images, 870 validation images
 Bottle Classes: Aquafina, Deer, Kirkland, Nestle
 Format: PASCAL VOC, Darknet
-Download link: 
+Download link: https://drive.google.com/file/d/1D5xOcHndxLHpf5r5d-pzmeli0itoHkuf/view?usp=sharing 
 Folder Structure:
  - Annotations: contains the xml label files in PASCAL VOC format
  - ImageSets: contains the training index files 

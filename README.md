@@ -21,7 +21,7 @@ This bottle dataset consists of 4870 images of four brands of mineral water bott
 * Darknet
 
 **Download link**
-* https: 
+* https://drive.google.com/file/d/1D5xOcHndxLHpf5r5d-pzmeli0itoHkuf/view?usp=sharing  
 
 **Dataset Folder Structure**
 * Annotations: contains the xml label files in PASCAL VOC format
@@ -49,6 +49,15 @@ This bottle detector is a pretrained yolov3-tiny model fine-tuned by our custom 
 * ./demo/bottle_detection_demo.mp4
 
 ## Citation
+```
+@article{chen2022semantic,
+  title={The semantic PHD filter for multi-class target tracking: From theory to practice},
+  author={Chen, Jun and Xie, Zhanteng and Dames, Philip},
+  journal={Robotics and Autonomous Systems},
+  volume={149},
+  pages={103947},
+  year={2022},
+  publisher={Elsevier}
+}
 
-
-
+```
