@@ -3,8 +3,8 @@ A Yolov3-based bottle brand detector, which is trained from a custom dataset wit
 
 ![bottle_detection_demo](demo/bottle_detection_demo.gif "bottle_detection_demo") 
 
-## Custom Bottle Dataset:
-This bottle dataset consists of 4870 images of four brands of mineral water bottles (i.e. Aquafina, Deer, Kirkland and Nestle). Images were collected by the turtlebot 2 robot and smart phone in four different environments: lobby, laboratory, corridor, and living room. 
+## Custom Detection Dataset:
+This water bottle detection dataset consists of 4870 images of four brands of mineral water bottles (i.e. Aquafina, Deer, Kirkland and Nestle). Images were collected by the turtlebot 2 robot and smart phone in four different environments: lobby, laboratory, corridor, and living room. 
 
 **Size** 
 * 4000 training images
@@ -21,7 +21,7 @@ This bottle dataset consists of 4870 images of four brands of mineral water bott
 * Darknet
 
 **Download link**
-* https://drive.google.com/file/d/1D5xOcHndxLHpf5r5d-pzmeli0itoHkuf/view?usp=sharing  
+* https://10.5281/zenodo.7065974 
 
 **Dataset Folder Structure**
 * Annotations: contains the xml label files in PASCAL VOC format
@@ -58,6 +58,12 @@ This bottle detector is a pretrained yolov3-tiny model fine-tuned by our custom 
   pages={103947},
   year={2022},
   publisher={Elsevier}
+}
+
+@article{xie2022dataset,
+  title={Experimental Datasets and Processing Codes for the Semantic PHD Filter},
+  author={Xie, Zhanteng and Chen, Jun and Dames, Philip},
+  year={2022},
 }
 
 ```
