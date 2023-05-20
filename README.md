@@ -21,7 +21,8 @@ This water bottle detection dataset consists of 4870 images of four brands of mi
 * Darknet
 
 **Download link**
-* https://10.5281/zenodo.7065974 
+* https://zenodo.org/record/7065974
+* DOI: 10.5281/zenodo.7065974
 
 **Dataset Folder Structure**
 * Annotations: contains the xml label files in PASCAL VOC format
